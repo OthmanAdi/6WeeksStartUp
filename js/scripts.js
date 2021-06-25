@@ -826,7 +826,7 @@
     reset: false,
     duration: 1000,
     mobile: false,
-    delay: 400,
+    delay: 1,
     scale: 1,
     origin: 'left',
     distance: '100%',
@@ -834,13 +834,13 @@
   });
 
   sr.reveal('.animated-bottom', {
-    reset: false,
+    reset: true,
     duration: 1000,
-    mobile: false,
-    delay: 400,
-    scale: 1,
+    mobile: true,
+    delay: 1,
+    scale: 3,
     origin: 'bottom',
-    viewOffset: { top: 100, right: 0, bottom: 0, left: 0 }
+    viewOffset: { top: 200, right: 0, bottom: 0, left: 0 }
   });
 
   sr.reveal('.animated-left', {
