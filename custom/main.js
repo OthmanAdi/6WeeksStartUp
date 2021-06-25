@@ -1,6 +1,7 @@
 var $cont = document.querySelector('.cont');
 var $elsArr = [].slice.call(document.querySelectorAll('.el'));
 var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
+var $closeBtnsDiv = document.getElementsByTagName('body')
 
 setTimeout(function() {
   $cont.classList.remove('s--inactive');
