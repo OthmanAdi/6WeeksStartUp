@@ -168,11 +168,11 @@
       line-height: 1.5;
       margin-top: 15px;
     }
-  } 
-  
+  }
+
   .flickity-slider-wrap.items-4 .work-item {
     width: 33.333%;
-  } 
+  }
 
   .works-grid.grid-5-col .work-item,
   .works-grid.grid-4-col .work-item,
@@ -231,7 +231,7 @@
 
 @media (max-width: 640px) {
 
-  .col-xxs-12, 
+  .col-xxs-12,
   .masonry-grid .work-item,
   .masonry-grid .work-item.quarter {
     width: 100%;
@@ -247,7 +247,7 @@
     a {
       display: block;
       margin: 10px 0;
-      margin-bottom: 0;      
+      margin-bottom: 0;
     }
 
     &.style-2 .portfolio-filter-wrap {
@@ -257,8 +257,8 @@
     &.style-2 a.active {
       border-bottom: none;
       color: $main-color;
-    }    
-  } 
+    }
+  }
 
   .intro-heading {
     font-size: 30px;
