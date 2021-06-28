@@ -2386,6 +2386,15 @@ input.main-search-input:-ms-input-placeholder {
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 834px) {
+    .SnapLook {
+        scroll-snap-align: start;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+}
+
 /**/
 
 /* Go to Top
