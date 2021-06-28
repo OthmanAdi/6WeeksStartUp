@@ -2371,15 +2371,11 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .accordion__week__Input {
-    display: none;
-}
-
-.accordion__week__Input:checked ~ .accordion__content {
     display: block;
 }
 
-.closingButton:enabled ~ .accordion__content {
-    display: none !important;
+.accordion__week__Input:checked ~ .accordion__content {
+    display: block !important;
 }
 
 /*
