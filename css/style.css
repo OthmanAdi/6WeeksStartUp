@@ -3745,17 +3745,17 @@ section.angle-bottom {
     padding: 30px;
     width: 100%;
     z-index: 2;
-    bottom: 0;
-    /*-webkit-transform: translate(0, 50%);*/
-    /*-moz-transform: translate(0, 50%);*/
-    /*-ms-transform: translate(0, 50%);*/
-    /*-o-transform: translate(0, 50%);*/
-    /*transform: translate(0, 50%);*/
-    /*-webkit-transition: all 0.3s ease-in-out;*/
-    /*-moz-transition: all 0.3s ease-in-out;*/
-    /*-ms-transition: all 0.3s ease-in-out;*/
-    /*-o-transition: all 0.3s ease-in-out;*/
-    /*transition: all 0.3s ease-in-out;*/
+    bottom: 10em;
+    -webkit-transform: translate(200%, 50%);
+    -moz-transform: translate(200%, 50%);
+    -ms-transform: translate(200%, 50%);
+    -o-transform: translate(200%, 50%);
+    transform: translate(200%, 50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .team-img:hover .team-details {
@@ -3795,6 +3795,9 @@ section.angle-bottom {
 
 .team-wrap {
     margin-bottom: 0px;
+}
+.team-wrap_P-T-S{
+    height: 30vh;
 }
 
 .team-wrap .MARIA {
